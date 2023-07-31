@@ -1,4 +1,4 @@
 x<-seq(1, 10, len=1)
 y<-40*2 + rnorm(n = 10, mean = 0, sd = 5)
-plot(x = x, y = y)
-summary()
+plot(x = x, y = y) 
+x |> summary()
